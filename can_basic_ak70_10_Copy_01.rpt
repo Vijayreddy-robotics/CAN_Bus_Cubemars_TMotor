@@ -1,0 +1,846 @@
+Loading plugins phase: Elapsed time ==> 0s.062ms
+Initializing data phase: Elapsed time ==> 1s.899ms
+<CYPRESSTAG name="CyDsfit arguments...">
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p C:\Users\vijay\Downloads\CANBUS10\CANBUS\AK60-10_test\can_basic_ak70_10_Copy_01.cydsn\can_basic_ak70_10_Copy_01.cyprj -d CY8C5588AXI-060 -s C:\Users\vijay\Downloads\CANBUS10\CANBUS\AK60-10_test\can_basic_ak70_10_Copy_01.cydsn\Generated_Source\PSoC5 -w 0 -- -yv2 -w 0 -v3 -ygs -q10 -o2 -.fftcfgtype=LE -.fftp3sirev=ES1</CYPRESSTAG>
+<CYPRESSTAG name="Design elaboration results...">
+</CYPRESSTAG>
+Elaboration phase: Elapsed time ==> 1s.264ms
+<CYPRESSTAG name="HDL generation results...">
+</CYPRESSTAG>
+HDL generation phase: Elapsed time ==> 0s.046ms
+<CYPRESSTAG name="Synthesis results...">
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp Verilog Synthesis Compiler: Version 6.3 IR 41
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  can_basic_ak70_10_Copy_01.v
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\bin/warp.exe
+Options  :    -yv2 -w 0 -v3 -ygs -q10 -o2 -.fftcfgtype=LE -.fftp3sirev=ES1 -ya -.fftprj=C:\Users\vijay\Downloads\CANBUS10\CANBUS\AK60-10_test\can_basic_ak70_10_Copy_01.cydsn\can_basic_ak70_10_Copy_01.cyprj -dcpsoc3 can_basic_ak70_10_Copy_01.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  can_basic_ak70_10_Copy_01.v
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\bin/warp.exe
+Options  :    -yv2 -w 0 -v3 -ygs -q10 -o2 -.fftcfgtype=LE -.fftp3sirev=ES1 -ya -.fftprj=C:\Users\vijay\Downloads\CANBUS10\CANBUS\AK60-10_test\can_basic_ak70_10_Copy_01.cydsn\can_basic_ak70_10_Copy_01.cyprj -dcpsoc3 can_basic_ak70_10_Copy_01.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  can_basic_ak70_10_Copy_01.v
+Program  :   vlogfe
+Options  :    -yv2 -w 0 -v3 -ygs -q10 -o2 -.fftcfgtype=LE -.fftp3sirev=ES1 -ya -.fftprj=C:\Users\vijay\Downloads\CANBUS10\CANBUS\AK60-10_test\can_basic_ak70_10_Copy_01.cydsn\can_basic_ak70_10_Copy_01.cyprj -dcpsoc3 -verilog can_basic_ak70_10_Copy_01.v
+======================================================================
+
+vlogfe V6.3 IR 41:  Verilog parser
+Sat Aug 26 19:56:15 2023
+
+
+======================================================================
+Compiling:  can_basic_ak70_10_Copy_01.v
+Program  :   vpp
+Options  :    -yv2 -q10 can_basic_ak70_10_Copy_01.v
+======================================================================
+
+vpp V6.3 IR 41:  Verilog Pre-Processor
+Sat Aug 26 19:56:15 2023
+
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\..\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'
+
+vpp:  No errors.
+
+Library 'work' => directory 'lcpsoc3'
+General_symbol_table
+General_symbol_table
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Using control file 'can_basic_ak70_10_Copy_01.ctl'.
+
+vlogfe:  No errors.
+
+
+======================================================================
+Compiling:  can_basic_ak70_10_Copy_01.v
+Program  :   tovif
+Options  :    -yv2 -w 0 -v3 -ygs -q10 -o2 -.fftcfgtype=LE -.fftp3sirev=ES1 -ya -.fftprj=C:\Users\vijay\Downloads\CANBUS10\CANBUS\AK60-10_test\can_basic_ak70_10_Copy_01.cydsn\can_basic_ak70_10_Copy_01.cyprj -dcpsoc3 -verilog can_basic_ak70_10_Copy_01.v
+======================================================================
+
+tovif V6.3 IR 41:  High-level synthesis
+Sat Aug 26 19:56:15 2023
+
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Users\vijay\Downloads\CANBUS10\CANBUS\AK60-10_test\can_basic_ak70_10_Copy_01.cydsn\codegentemp\can_basic_ak70_10_Copy_01.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'.
+Linking 'C:\Users\vijay\Downloads\CANBUS10\CANBUS\AK60-10_test\can_basic_ak70_10_Copy_01.cydsn\codegentemp\can_basic_ak70_10_Copy_01.v'.
+
+tovif:  No errors.
+
+
+======================================================================
+Compiling:  can_basic_ak70_10_Copy_01.v
+Program  :   topld
+Options  :    -yv2 -w 0 -v3 -ygs -q10 -o2 -.fftcfgtype=LE -.fftp3sirev=ES1 -ya -.fftprj=C:\Users\vijay\Downloads\CANBUS10\CANBUS\AK60-10_test\can_basic_ak70_10_Copy_01.cydsn\can_basic_ak70_10_Copy_01.cyprj -dcpsoc3 -verilog can_basic_ak70_10_Copy_01.v
+======================================================================
+
+topld V6.3 IR 41:  Synthesis and optimization
+Sat Aug 26 19:56:15 2023
+
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Users\vijay\Downloads\CANBUS10\CANBUS\AK60-10_test\can_basic_ak70_10_Copy_01.cydsn\codegentemp\can_basic_ak70_10_Copy_01.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'.
+Linking 'C:\Users\vijay\Downloads\CANBUS10\CANBUS\AK60-10_test\can_basic_ak70_10_Copy_01.cydsn\codegentemp\can_basic_ak70_10_Copy_01.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+Aliasing tmpOE__Rx_1_net_0 to tmpOE__Tx_1_net_0
+Aliasing tmpOE__Tx_2_net_0 to tmpOE__Tx_1_net_0
+Aliasing tmpOE__Tx_3_net_0 to tmpOE__Tx_1_net_0
+Removing Lhs of wire tmpOE__Rx_1_net_0[15] = tmpOE__Tx_1_net_0[9]
+Removing Lhs of wire tmpOE__Tx_2_net_0[21] = tmpOE__Tx_1_net_0[9]
+Removing Lhs of wire tmpOE__Tx_3_net_0[28] = tmpOE__Tx_1_net_0[9]
+
+------------------------------------------------------
+Aliased 0 equations, 3 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Substituting virtuals - pass 1:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
+
+topld:  No errors.
+
+CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp
+Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\1.0\PSoC Creator\warp\bin/warp.exe
+Warp Arguments : -yv2 -w 0 -v3 -ygs -q10 -o2 -.fftcfgtype=LE -.fftp3sirev=ES1 -ya -.fftprj=C:\Users\vijay\Downloads\CANBUS10\CANBUS\AK60-10_test\can_basic_ak70_10_Copy_01.cydsn\can_basic_ak70_10_Copy_01.cyprj -dcpsoc3 can_basic_ak70_10_Copy_01.v -verilog
+</CYPRESSTAG>
+Warp synthesis phase: Elapsed time ==> 0s.439ms
+Setting sirev to ES1
+<CYPRESSTAG name="Fitter results...">
+<CYPRESSTAG name="Fitter startup details...">
+cyp3fit: V1.0.1.21, Family: PSoC3, Started at: Saturday, 26 August 2023 19:56:15
+Options: -yv2 -w 0 -v3 -ygs -q10 -o2 -.fftcfgtype=LE -.fftp3sirev=ES1 -ya -.fftprj=C:\Users\vijay\Downloads\CANBUS10\CANBUS\AK60-10_test\can_basic_ak70_10_Copy_01.cydsn\can_basic_ak70_10_Copy_01.cyprj -dCY8C5588AXI-060 can_basic_ak70_10_Copy_01.v -verilog
+</CYPRESSTAG>
+<CYPRESSTAG name="Design parsing">
+Design parsing phase: Elapsed time ==> 0s.003ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Tech mapping">
+<CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
+Assigning clock CAN_Clock to clock BUS_CLK because it is a pass-through
+<CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
+</CYPRESSTAG>
+<CYPRESSTAG name="UDB Clock/Enable Remapping Results">
+</CYPRESSTAG>
+<CYPRESSTAG name="Duplicate Macrocell detection">
+</CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Duplicate Macrocell detection">
+</CYPRESSTAG>
+<CYPRESSTAG name="Design Equations" icon="FILE_RPT_EQUATION">
+
+------------------------------------------------------------
+Design Equations
+------------------------------------------------------------
+    <CYPRESSTAG name="Pin listing">
+
+    ------------------------------------------------------------
+    Pin listing
+    ------------------------------------------------------------
+
+    Pin : Name = Rx_1(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_DIGITAL
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO RefSel: VCC_IO
+            Required Capabilitites: 1
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            fb => Net_11 ,
+            pad => Rx_1(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Tx_1(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO RefSel: VCC_IO
+            Required Capabilitites: 1
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            input => Net_12 ,
+            pad => Tx_1(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Tx_2(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO RefSel: VCC_IO
+            Required Capabilitites: 1
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            input => Net_14 ,
+            pad => Tx_2(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Tx_3(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO RefSel: VCC_IO
+            Required Capabilitites: 1
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            input => Net_12 ,
+            pad => Tx_3(0)_PAD );
+        Properties:
+        {
+        }
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Macrocell listing" icon="FILE_RPT_EQUATION">
+
+    ------------------------------------------------------------
+    Macrocell listing
+    ------------------------------------------------------------
+
+    MacroCell: Name=Net_14, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_12
+        );
+        Output = Net_14 (fanout=1)
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Datapath listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Status register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="StatusI register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Sync listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Control register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Count7 listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="DRQ listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Interrupt listing">
+
+    ------------------------------------------------------------
+    Interrupt listing
+    ------------------------------------------------------------
+
+    interrupt: Name =\CAN:isr\
+        PORT MAP (
+            interrupt => \CAN:Net_23\ );
+        Properties:
+        {
+            int_type = "10"
+        }
+    </CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Technology mapping summary" expanded>
+
+------------------------------------------------------------
+Technology mapping summary
+------------------------------------------------------------
+
+                Resource Type : Used : Free :  Max :  % Used
+============================================================
+Digital domain clock dividers :    0 :    8 :    8 :   0.00%
+ Analog domain clock dividers :    0 :    4 :    4 :   0.00%
+                         Pins :    7 :   65 :   72 :   9.72%
+                   Macrocells :    1 :  191 :  192 :   0.52%
+                Unique Pterms :    1 :  383 :  384 :   0.26%
+                 Total Pterms :    1 :      :      : 
+               Datapath Cells :    0 :   24 :   24 :   0.00%
+                 Status Cells :    0 :   24 :   24 :   0.00%
+         Control/Count7 Cells :    0 :   24 :   24 :   0.00%
+                   Sync Cells :    0 :   96 :   96 :   0.00%
+                         Drqs :    0 :   24 :   24 :   0.00%
+                   Interrupts :    1 :   31 :   32 :   3.13%
+             DSM Fixed Blocks :    0 :    1 :    1 :   0.00%
+           VIDAC Fixed Blocks :    0 :    4 :    4 :   0.00%
+              SC Fixed Blocks :    0 :    4 :    4 :   0.00%
+      Comparator Fixed Blocks :    0 :    4 :    4 :   0.00%
+           Opamp Fixed Blocks :    0 :    4 :    4 :   0.00%
+             CapSense Buffers :    0 :    2 :    2 :   0.00%
+             CAN Fixed Blocks :    1 :    0 :    1 : 100.00%
+       Decimator Fixed Blocks :    0 :    1 :    1 :   0.00%
+             I2C Fixed Blocks :    0 :    1 :    1 :   0.00%
+           Timer Fixed Blocks :    0 :    4 :    4 :   0.00%
+             DFB Fixed Blocks :    0 :    1 :    1 :   0.00%
+             USB Fixed Blocks :    0 :    1 :    1 :   0.00%
+             LCD Fixed Blocks :    0 :    1 :    1 :   0.00%
+            EMIF Fixed Blocks :    0 :    1 :    1 :   0.00%
+             LPF Fixed Blocks :    0 :    2 :    2 :   0.00%
+             SAR Fixed Blocks :    0 :    2 :    2 :   0.00%
+</CYPRESSTAG>
+Technology Mapping: Elapsed time ==> 0s.006ms
+Tech mapping phase: Elapsed time ==> 0s.300ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Placement">
+Initial Analog Placement Results:
+IO_7@[Chip=0][IOP=(3)][IoId=(7)]: Rx_1(0) (fixed)
+IO_0@[Chip=0][IOP=(12)][IoId=(0)]: Tx_1(0) (fixed)
+IO_1@[Chip=0][IOP=(12)][IoId=(1)]: Tx_2(0) (fixed)
+IO_6@[Chip=0][IOP=(3)][IoId=(6)]: Tx_3(0) (fixed)
+Analog Placement phase: Elapsed time ==> 0s.009ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Routing">
+============ VeraRouter Final Answer Routes ============
+Analog Routing phase: Elapsed time ==> 0s.533ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Placement">
+<CYPRESSTAG name="PLD Packing">
+<CYPRESSTAG name="PLD Packing Summary" expanded>
+
+------------------------------------------------------------
+PLD Packing Summary
+------------------------------------------------------------
+            Resource Type : Used : Free :  Max :  % Used
+    ====================================================
+                     PLDs :    1 :   47 :   48 :   2.08%
+
+<CYPRESSTAG name="PLD Statistics">
+
+        PLD Resource Type :     Average/LAB
+    =======================================
+                   Inputs :            1.00
+                   Pterms :            1.00
+               Macrocells :            1.00
+</CYPRESSTAG>
+<CYPRESSTAG name="Packed PLD Contents">
+Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
+</CYPRESSTAG>
+PLD Packing: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Partitioning">
+<CYPRESSTAG name="Initial Partitioning Summary">
+Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+<CYPRESSTAG name="Final Partitioning Summary">
+Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+Partitioning: Elapsed time ==> 0s.015ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Simulated Annealing">
+Annealing: Elapsed time ==> 0s.142ms
+<CYPRESSTAG name="Simulated Annealing Results">
+The seed used for moves was 114161200.
+Inital cost was 74, final cost is 43 (41.89% improvement).</CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Final Placement Summary">
+
+------------------------------------------------------------
+Final Placement Summary
+------------------------------------------------------------
+
+       Resource Type :      Count : Avg Inputs : Avg Outputs
+    ========================================================
+                 UDB :          1 :       1.00 :       1.00
+<CYPRESSTAG name="Final Placement Details">
+<CYPRESSTAG name="Component Details">
+
+------------------------------------------------------------
+Component Placement Details
+------------------------------------------------------------
+UDB [Chip=0][UDB=(0,0)] is empty.
+UDB [Chip=0][UDB=(0,1)] is empty.
+UDB [Chip=0][UDB=(0,2)] is empty.
+UDB [Chip=0][UDB=(0,3)] is empty.
+UDB [Chip=0][UDB=(0,4)] is empty.
+UDB [Chip=0][UDB=(0,5)] is empty.
+UDB [Chip=0][UDB=(1,0)] is empty.
+UDB [Chip=0][UDB=(1,1)] is empty.
+UDB [Chip=0][UDB=(1,2)] is empty.
+UDB [Chip=0][UDB=(1,3)] is empty.
+UDB [Chip=0][UDB=(1,4)] is empty.
+UDB [Chip=0][UDB=(1,5)] is empty.
+UDB [Chip=0][UDB=(2,0)] is empty.
+UDB [Chip=0][UDB=(2,1)] is empty.
+UDB [Chip=0][UDB=(2,2)] is empty.
+UDB [Chip=0][UDB=(2,3)] is empty.
+UDB [Chip=0][UDB=(2,4)] is empty.
+UDB [Chip=0][UDB=(2,5)] is empty.
+UDB [Chip=0][UDB=(3,0)] is empty.
+UDB [Chip=0][UDB=(3,1)] is empty.
+UDB [Chip=0][UDB=(3,2)] is empty.
+UDB [Chip=0][UDB=(3,3)] contents:
+LAB@[Chip=0][UDB=(3,3)][LB=1] #macrocells=1, #inputs=1, #pterms=1
+{
+    [McSlotId=0]:     MacroCell: Name=Net_14, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_12
+        );
+        Output = Net_14 (fanout=1)
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+UDB [Chip=0][UDB=(3,4)] is empty.
+UDB [Chip=0][UDB=(3,5)] is empty.
+Intr hod @ [Chip=0][IntrHod=(0)]: 
+  Intr@ [Chip=0][IntrHod=(0)][IntrId=(16)] 
+    interrupt: Name =\CAN:isr\
+        PORT MAP (
+            interrupt => \CAN:Net_23\ );
+        Properties:
+        {
+            int_type = "10"
+        }
+Drq hod @ [Chip=0][DrqHod=(0)]: empty
+Port 0 is empty
+Port 1 is empty
+Port 2 is empty
+Port 3 contains the following IO cells:
+[IoId=6]: 
+Pin : Name = Tx_3(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO RefSel: VCC_IO
+        Required Capabilitites: 1
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        input => Net_12 ,
+        pad => Tx_3(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=7]: 
+Pin : Name = Rx_1(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_DIGITAL
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO RefSel: VCC_IO
+        Required Capabilitites: 1
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        fb => Net_11 ,
+        pad => Rx_1(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 4 is empty
+Port 5 is empty
+Port 6 is empty
+Port 12 contains the following IO cells:
+[IoId=0]: 
+Pin : Name = Tx_1(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO RefSel: VCC_IO
+        Required Capabilitites: 1
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        input => Net_12 ,
+        pad => Tx_1(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=1]: 
+Pin : Name = Tx_2(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO RefSel: VCC_IO
+        Required Capabilitites: 1
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        input => Net_14 ,
+        pad => Tx_2(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 15 is empty
+Fixed Function block hod @ [Chip=0][FFB(CAN,0)]: 
+    CAN Block @ [Chip=0][FFB(CAN,0)]: 
+    cancell: Name =\CAN:CanIP\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            can_rx => Net_11 ,
+            can_tx => Net_12 ,
+            can_tx_en => Net_9 ,
+            interrupt => \CAN:Net_23\ );
+        Properties:
+        {
+            cy_registers = ""
+        }
+Fixed Function block hod @ [Chip=0][FFB(Cache,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(CapSense,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(Clock,0)]: 
+    Clock Block @ [Chip=0][FFB(Clock,0)]: 
+    clockblockcell: Name =ClockBlock
+        PORT MAP (
+            clk_bus => ClockBlock_BUS_CLK ,
+            clk_sync => ClockBlock_MASTER_CLK ,
+            clk_32k_xtal => ClockBlock_XTAL 32kHz ,
+            xtal => ClockBlock_XTAL ,
+            ilo => ClockBlock_ILO ,
+            clk_100k => ClockBlock_100k ,
+            clk_1k => ClockBlock_1k ,
+            clk_32k => ClockBlock_32k ,
+            pllout => ClockBlock_PLL_OUT ,
+            imo => ClockBlock_IMO );
+Fixed Function block hod @ [Chip=0][FFB(Comparator,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(DFB,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(DSM,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(Decimator,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(EMIF,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(I2C,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(LCD,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(LVD,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(PM,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(SC,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(SPC,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(Timer,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(USB,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(VIDAC,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(Abuf,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(CsAbuf,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(Vref,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(LPF,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(SAR,0)]: empty
+Fixed Function block hod @ [Chip=0][FFB(TimingFault,0)]: empty
+</CYPRESSTAG>
+<CYPRESSTAG name="Port Configuration Details">
+
+------------------------------------------------------------
+Port Configuration report
+------------------------------------------------------------
+     |     |       | Interrupt |                  |         | 
+Port | Pin | Fixed |      Type |       Drive Mode |    Name | Connections
+-----+-----+-------+-----------+------------------+---------+------------
+   3 |   6 |     * |      NONE |         CMOS_OUT | Tx_3(0) | In(Net_12)
+     |   7 |     * |      NONE |     HI_Z_DIGITAL | Rx_1(0) | FB(Net_11)
+-----+-----+-------+-----------+------------------+---------+------------
+  12 |   0 |     * |      NONE |         CMOS_OUT | Tx_1(0) | In(Net_12)
+     |   1 |     * |      NONE |         CMOS_OUT | Tx_2(0) | In(Net_14)
+-------------------------------------------------------------------------
+</CYPRESSTAG>
+Log: plm.M0038: The pin named Tx_3(0) at location P3[6] prevents usage of special purposes: OpAmp:out. (App=cydsfit)
+Log: plm.M0038: The pin named Rx_1(0) at location P3[7] prevents usage of special purposes: OpAmp:out. (App=cydsfit)
+Log: plm.M0038: The pin named Tx_1(0) at location P12[0] prevents usage of special purposes: SIO or I2C:SCL. (App=cydsfit)
+Log: plm.M0038: The pin named Tx_2(0) at location P12[1] prevents usage of special purposes: SIO or I2C:SDA. (App=cydsfit)
+Info: plm.M0037: The pin(s) named Tx_3(0), Rx_1(0), Tx_1(0), Tx_2(0) at locations P3[6], P3[7], P12[0], P12[1] may impede future use of special pin features. (App=cydsfit)
+</CYPRESSTAG>
+</CYPRESSTAG>
+Digital component placer commit/Report: Elapsed time ==> 0s.015ms
+Digital Placement phase: Elapsed time ==> 0s.172ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Routing">
+Would route: (Signal Net_12)
+'can_tx' on CAN[0]@[Chip=0][FFB(CAN,0)] @ JackIdx=1 IO_6@[Chip=0][IOP=(3)][IoId=(6)] IO_0@[Chip=0][IOP=(12)][IoId=(0)] right@[Chip=0][UDB=(3,3)][LB=1] 
+Would route: (Signal Net_11)
+IO_7@[Chip=0][IOP=(3)][IoId=(7)] 'can_rx' on CAN[0]@[Chip=0][FFB(CAN,0)] @ JackIdx=0 
+Would route: (Signal Net_14)
+right@[Chip=0][UDB=(3,3)][LB=1] IO_1@[Chip=0][IOP=(12)][IoId=(1)] 
+Would route: (Signal \CAN:Net_23\)
+'interrupt' on CAN[0]@[Chip=0][FFB(CAN,0)] @ JackIdx=3 'input_1' on interrupt16@[Chip=0][IntrHod=(0)][IntrId=(16)] @ JackIdx=0 
+
+Routed Successfully
+Routing Results:
+Net_12: Jack[1]@CAN[0]@[Chip=0][FFB(CAN,0)] Jack[1]@CAN[0]@[Chip=0][FFB(CAN,0)] dsi@[Chip=0][DSI=(0,2)]_dsi_bus[8(0)] Jack[210]@dsiswitch_top@[Chip=0][DSI=(0,2)][side=top] hchan_0[82(2)] Jack[98]@hvswitch@[Chip=0][UDB=(0,1)][side=right] vchan_1[28(0)] Jack[2]@vchan_1@[Chip=0]_SegSwitch@[Chip=0][SegId=(28)] vchan_1[28(1)] Jack[2]@vchan_1@[Chip=0]_SegSwitch@[Chip=0][SegId=(60)] vchan_1[28(2)] Jack[21]@hvswitch@[Chip=0][UDB=(2,1)][side=right] hchan_2[5(2)] Jack[2]@hchan_2@[Chip=0]_SegSwitch@[Chip=0][SegId=(197)] hchan_2[5(3)] Jack[133]@udbswitch@[Chip=0][UDB=(2,3)][side=top] udb_bus[20(0)] Jack[11]@right@[Chip=0][UDB=(3,3)][LB=1] Jack[30]@hvswitch@[Chip=0][UDB=(2,1)][side=right] hchan_2[14(2)] Jack[2]@hchan_2@[Chip=0]_SegSwitch@[Chip=0][SegId=(206)] hchan_2[14(3)] Jack[142]@udbswitch@[Chip=0][UDB=(2,3)][side=top] udb_bus[2(0)] Jack[140]@udbswitch@[Chip=0][UDB=(2,3)][side=top] hchan_2[12(3)] Jack[28]@hvswitch@[Chip=0][UDB=(2,3)][side=left] vchan_3[4(2)] Jack[2]@vchan_3@[Chip=0]_SegSwitch@[Chip=0][SegId=(68)] vchan_3[4(3)] Jack[25]@hvswitch@[Chip=0][UDB=(3,3)][side=left] hchan_3[9(3)] Jack[137]@dsiswitch_top@[Chip=0][DSI=(1,3)][side=top] dsi@[Chip=0][DSI=(1,3)]_dsi_bus[40(0)] Jack[4]@O_0_4_to_1_output_mux@[Chip=0][IOP=(12)][IoId=(0)][MuxId=(0)] ioport_7@[Chip=0][IOP=(12)]_port_bus[0(0)] Jack[0]@IO_0@[Chip=0][IOP=(12)][IoId=(0)] Jack[2]@hchan_2@[Chip=0]_SegSwitch@[Chip=0][SegId=(300)] hchan_2[12(4)] Jack[2]@hchan_2@[Chip=0]_SegSwitch@[Chip=0][SegId=(396)] hchan_2[12(5)] Jack[28]@hvswitch@[Chip=0][UDB=(2,5)][side=left] vchan_5[4(2)] Jack[2]@vchan_5@[Chip=0]_SegSwitch@[Chip=0][SegId=(68)] vchan_5[4(3)] Jack[56]@hvswitch@[Chip=0][UDB=(3,5)][side=left] hchan_3[40(5)] Jack[168]@dsiswitch_top@[Chip=0][DSI=(1,5)][side=top] dsi@[Chip=0][DSI=(1,5)]_dsi_bus[47(0)] Jack[4]@O_6_4_to_1_output_mux@[Chip=0][IOP=(3)][IoId=(6)][MuxId=(0)] ioport_3@[Chip=0][IOP=(3)]_port_bus[6(0)] Jack[0]@IO_6@[Chip=0][IOP=(3)][IoId=(6)] 
+Net_12: 24
+Net_11: Jack[1]@IO_7@[Chip=0][IOP=(3)][IoId=(7)] Jack[1]@IO_7@[Chip=0][IOP=(3)][IoId=(7)] dsi@[Chip=0][DSI=(1,5)]_dsi_bus[7(0)] Jack[169]@dsiswitch_top@[Chip=0][DSI=(1,5)][side=top] hchan_3[41(5)] Jack[3]@hchan_3@[Chip=0]_SegSwitch@[Chip=0][SegId=(425)] hchan_3[41(4)] Jack[3]@hchan_3@[Chip=0]_SegSwitch@[Chip=0][SegId=(329)] hchan_3[41(3)] Jack[57]@hvswitch@[Chip=0][UDB=(3,2)][side=right] vchan_2[19(3)] Jack[3]@vchan_2@[Chip=0]_SegSwitch@[Chip=0][SegId=(83)] vchan_2[19(2)] Jack[3]@vchan_2@[Chip=0]_SegSwitch@[Chip=0][SegId=(51)] vchan_2[19(1)] Jack[3]@vchan_2@[Chip=0]_SegSwitch@[Chip=0][SegId=(19)] vchan_2[19(0)] Jack[21]@hvswitch@[Chip=0][UDB=(0,2)][side=right] hchan_0[5(3)] Jack[3]@hchan_0@[Chip=0]_SegSwitch@[Chip=0][SegId=(197)] hchan_0[5(2)] Jack[133]@dsiswitch_top@[Chip=0][DSI=(0,2)][side=top] dsi@[Chip=0][DSI=(0,2)]_dsi_bus[52(0)] Jack[0]@CAN[0]@[Chip=0][FFB(CAN,0)] 
+Net_11: 11
+Net_14: Jack[15]@right@[Chip=0][UDB=(3,3)][LB=1] udb_bus[16(0)] Jack[204]@udbswitch@[Chip=0][UDB=(2,3)][side=top] hchan_2[76(3)] Jack[92]@hvswitch@[Chip=0][UDB=(2,2)][side=right] vchan_2[21(2)] Jack[2]@vchan_2@[Chip=0]_SegSwitch@[Chip=0][SegId=(85)] vchan_2[21(3)] Jack[29]@hvswitch@[Chip=0][UDB=(3,2)][side=right] hchan_3[13(3)] Jack[141]@dsiswitch_top@[Chip=0][DSI=(1,3)][side=top] dsi@[Chip=0][DSI=(1,3)]_dsi_bus[42(0)] Jack[4]@O_1_4_to_1_output_mux@[Chip=0][IOP=(12)][IoId=(1)][MuxId=(0)] ioport_7@[Chip=0][IOP=(12)]_port_bus[1(0)] Jack[0]@IO_1@[Chip=0][IOP=(12)][IoId=(1)] 
+Net_14: 7
+\CAN:Net_23\: Jack[3]@CAN[0]@[Chip=0][FFB(CAN,0)] Jack[3]@CAN[0]@[Chip=0][FFB(CAN,0)] dsi@[Chip=0][DSI=(0,2)]_dsi_bus[10(0)] Jack[3]@irq_16_3_to_1_mux@[Chip=0][IntrHod=(0)][IntrId=(16)][MuxId=(0)] intc_0@[Chip=0][IntrHod=(0)]_irq_bus[16(0)] Jack[0]@interrupt16@[Chip=0][IntrHod=(0)][IntrId=(16)] 
+\CAN:Net_23\: 2
+Routed 4 signals
+Routing took 0.2516903 second(s)
+Digital Routing phase: Elapsed time ==> 0s.487ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream and API generation">
+Bitstream and API generation phase: Elapsed time ==> 0s.250ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream verification">
+Bitstream verification phase: Elapsed time ==> 0s.078ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Static timing analysis">
+Static timing analysis report
+
+Project: C:\Users\vijay\Downloads\CANBUS10\CANBUS\AK60-10_test\can_basic_ak70_10_Copy_01.cydsn\can_basic_ak70_10_Copy_01.cyprj
+08/26/2023 19:56:17
+
+Operating Conditions:
+Vddd=5.0V Vddio0=5.0V Vddio1=5.0V Vddio2=5.0V Vddio3=5.0V
+Selected Parameter Set:
+Voltage: 1.65V, Temperature: -40 degrees C, Speed Grade: default, Silicon Rev: ES1
+No timing parameter file for CY8C5588AXI-060
+Unable to load timing parameters. Static timing analysis disabled.
+Static timing analysis phase: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Data reporting">
+Data reporting phase: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Database update...">
+Design database save phase: Elapsed time ==> 0s.203ms
+</CYPRESSTAG>
+cydsfit: Elapsed time ==> 2s.056ms
+</CYPRESSTAG>
+Fitter phase: Elapsed time ==> 2s.118ms
+API generation phase: Elapsed time ==> 0s.550ms
+Dependency generation phase: Elapsed time ==> 0s.000ms
+Cleanup phase: Elapsed time ==> 0s.000ms

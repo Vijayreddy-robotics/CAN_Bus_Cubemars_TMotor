@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<blockRegMap version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cypress.com/xsd/cyblockregmap cyblockregmap.xsd" xmlns="http://cypress.com/xsd/cyblockregmap">
+  <block name="Tx_2" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="not_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="Tx_3" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="CAN" BASE="0x0" SIZE="0x0" desc="" visible="true">
+    <block name="isr" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="CanIP" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+    <block name="Clock" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  </block>
+  <block name="Tx_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+  <block name="Rx_1" BASE="0x0" SIZE="0x0" desc="" visible="true" />
+</blockRegMap>
