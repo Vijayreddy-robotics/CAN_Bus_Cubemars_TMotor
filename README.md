@@ -1,7 +1,7 @@
 # CAN_Bus_Cubemars_TMotor
 
 ## Cubemars motors are mainly used in Humanoid robots and Quadruped/legged robots.
-CAN Bus protocol is implemented for Cubemars AK70 Tmotor using PSoC5 and Cypress MCU Cy8C55xx 
+CAN Bus protocol is used to communicate with Cubemars AK70 Tmotor using PSoC5 and Cypress MCU Cy8C55xx 
 
 For more details on cubemars motors, Go to the [Motor datasheet](https://github.com/Vijayreddy-robotics/CAN_Bus_Cubemars_TMotor/blob/main/cubemars_datasheet.pdf).
 
